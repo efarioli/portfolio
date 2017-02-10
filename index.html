@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+  
+  <link rel="stylesheet" href="main.css">
+  <title>HTML Portfolio</title>
+</head>
+<body>
+
+  <!--
+    Previous project placeholder begins -->
+  <nav class="navbar navbar-default">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#portfolio-collapse-menu">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Zeke Farioli</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse pull-right" id="portfolio-collapse-menu">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#myportfolio">Portfolio</a></li>
+        <li><a href="mailto:efarioli@gmail.com">Contact</a></li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+<div id="portfolio-carousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#portfolio-carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#portfolio-carousel" data-slide-to="1"></li>
+    <li data-target="#portfolio-carousel" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>Who I am</h1>
+          <p>Hi, my name is Zeke and I love to write code that is efficient. I am a self taught developer who like to learn new technology by building new projects.</p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>What I do</h1>
+           <p>I am a front end developer who love write code that work well in different environments. I love solving problems especially logical ones.</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>What I've done</h1>
+          <p>I am just starting out as a developer, but I already have a few works that I'd be happy to share. Personal projects are what have kept me busy.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a class="left carousel-control" href="#portfolio-carousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#portfolio-carousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<div class="marketing">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <span class="glyphicon glyphicon glyphicon-eye-close"></span>
+        <h2>HTML & CSS</h2>
+        <p>I am not a great designer but I love implement the design into the projects. I like to design smart and responsive design with Bootstrap and Angular taterial.</p>     
+      </div>
+
+      <div class="col-md-4">
+        <span class="glyphicon glyphicon-flash"></span>
+        <h2>Javascript</h2>        
+        <p>Making the web come to life with Jquery and AngularJS is my Jam!</p>
+        
+      </div>
+      <div class="col-md-4">
+        <span class="glyphicon glyphicon glyphicon-floppy-saved"></span>
+        <h2>Firebase</h2>
+        <p> The Firebase Realtime Database is a cloud-hosted database. Data is stored as JSON and synchronized in realtime to every connected client. Allowing my projects to persist data.</p>
+      </div>
+      
+    </div>
+  </div>
+
+</div>
+
+
+<div class="container">
+  <div >
+  <h1 id="myportfolio">My Portfolio</h1>  
+  </div>
+  
+</div>
+
+<div class="marketing" >
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <div class="hovereffect">
+                    <img class="img-responsive" src="img/proj01b.png" alt="">
+                    <div class="overlay">
+                         
+                         <a class="info" href="https://efarioli.github.io/AngularJs-Project02/#!/classifieds" target="_blank">Click to see it</a>
+                    </div>
+                </div>
+                <h3>Project N 1</h3>
+                <p>AngularJS application wire up to firebase to do crud operations. Using Angular JS, Firebase DB, Angular Material, Javascripts, CSS, and HTML5.</p>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <div class="hovereffect">
+                    <img class="img-responsive" src="img/proj02b.png" alt="">
+                    <div class="overlay">                         
+                         <a class="info" href="https://efarioli.github.io/todoListApp/" target="_blank">Click to see it</a>
+                    </div>
+                </div>
+                <h3>Project N 2</h3>
+                <p>Basic Todo List app built in AngularJS. Using besides Twitter Bootstrap, CSS and HTML5.</p>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <div class="hovereffect">
+                    <img class="img-responsive" src="img/proj03b.png" alt="" >
+                    <div class="overlay">                         
+                         <a class="info" href="https://efarioli.github.io/jQueryBadgesProject/" target="_blank">Click to see it</a>
+                    </div>
+                </div>
+                <h3>Project N 3</h3>
+                <p>Use jQuery to Fetch and Show Code School Badges Using Ajax.</p>
+            </div>
+
+
+        </div>
+
+
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <div class="hovereffect">
+                    <img class="img-responsive" src="img/proj04b.png" alt="">
+                    <div class="overlay">
+                         
+                         <a class="linkdead info" href="#">sorry under construction</a>
+                    </div>
+                </div>
+                <h3>Project N 4</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum ex massa, vitae lacinia justo venenatis in. Mauris placerat finibus commodo. Aenean semper sit amet diam a placerat. Nam euismod magna lorem, id iaculis ante tempor ac. Suspendisse ultrices felis nibh, in aliquet leo varius ac. Proin varius ac augue a elementum.</p>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <div class="hovereffect">
+                    <img class="img-responsive" src="img/proj05b.png" alt="">
+                    <div class="overlay">                         
+                         <a class="linkdead info" href="#">sorry under construction</a>
+                    </div>
+                </div>
+                <h3>Project N 5</h3>
+                <p>Maecenas risus neque, sodales vel velit vitae, faucibus accumsan lacus. Aenean sagittis scelerisque risus, auctor fermentum lectus rutrum nec. Morbi mollis, augue non vehicula malesuada, velit lorem mattis ex, et faucibus leo sem sit amet enim. Aliquam erat volutpat. Vestibulum tincidunt, dui vel auctor cursus, tellus nisl efficitur sem, sit amet tempus lacus neque at diam. Fusce blandit aliquam tellus at scelerisque.</p>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <div class="hovereffect">
+                    <img class="img-responsive" src="https://photos.google.com/share/AF1QipMOnp27Z42AU3BuTW6MYVxq6p0ySXm78geYjlM6aWG9BSehcJhMFcKC8_bCz3Z83w/photo/AF1QipMdd1BwYJXDlfxb_ORf345CtoxZV38cOGym9dKx?key=Nk03Ml80RllfOEtxRVR0MUVRaHhLemtDdF9VZzN3" alt="">
+                    <div class="overlay">                         
+                         <a class="linkdead info" href="#">sorry under construction</a>
+                    </div>
+                </div>
+                <h3>Project N 6</h3>
+                <p>Integer eu erat porta, fringilla tellus id, feugiat tellus. In eget mattis urna, sed congue leo. Maecenas dui elit, scelerisque sit amet arcu viverra, lacinia egestas sem.</p>
+            </div>
+
+
+        </div>
+
+
+
+
+
+     </div>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="navbar navbar-inverse navbar-fixed-botton navbar-custom">
+
+    <div class="container container-fluid">
+    <div class="row ">
+        <div class="col-md-4 col-md-offset-1 col-xs-12  col-xs-offset-1">
+            <h3>About this page</h3>
+            <p>Made with <i class="fa fa-fw fa-coffee"></i> and <i class="fa fa-birthday-cake" aria-hidden="true"></i><br/>by <a href="#">Zeke Farioli</a>.</p>
+           
+        </div>
+        <div class="col-md-4 col-md-offset-3 col-xs-12 col-xs-offset-1">
+             <h3>Around the Web</h3>
+             <ul class="row list-inline">
+                 <li><a href="https://www.linkedin.com/in/ezequiel-farioli-9bb273132" class="button social" target="_blank">
+                   <i class="fa fa-fw fa-linkedin"></i></a></li>
+                  <li><a href="https://github.com/efarioli" class="button social" target="_blank"><i class="fa fa-fw fa-github"></i></a></li>
+                  <li><a href="https://twitter.com/fariolie" class="button social" target="_blank"><i class="fa fa-fw fa-twitter"></i></a></li>
+                  <li><a href="https://www.freecodecamp.com/efarioli" class="button social" target="_blank"><i class="fa fa-free-code-camp"></i></a></li>
+             </ul>
+        </div>
+    </div>
+    </div>
+  
+  
+
+
+
+
+
+</div>
+
+
+
+
+
+  <!--
+    Previous project placeholder ends
+    (unused pieces will be deleted at the last task)
+  -->
+
+
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="app.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
