@@ -1,4 +1,8 @@
 
+*{
+  margin: 0;
+  padding: 0;
+}
 .navbar-inverse {
   background-color: #63676d;
   border-style: none;
@@ -103,13 +107,8 @@ transition-delay:.2s;
 
 
 /*////////////////////////////////////
-*/.fa {
-  color: white;
-  font-size: 30px;
-}
-.navbar-nav>li>a:hover{
-  border-bottom:  3px solid black; 
-}
+*/.
+
 
 
 /* NAVBAR
@@ -180,28 +179,89 @@ transition-delay:.2s;
 /* STICKY FOOTER
 -------------------------------------------------- */
 
-html {
+/*html {
   position: relative;
   min-height: 100%;
 }
-
+*/
 body {
   /* Margin bottom by footer height */
   margin-bottom: 160px;
+  font-family: 'Lato', sans-serif;
 }
 
-.footer,
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 160px;
-  background: #444;
-  color: white;
-  text-shadow: 1px 1px 1px black;
-  padding: 40px 0;
-}
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
+
+a .fa {
+  color: white;
+  font-size: 30px;
+  padding: 7px;
+}
+
+ 
+
+a .fa:hover {
+  padding:  7px;
+  color: #63676d;
+  background: white;
+  padding: 7px;
+  border-radius: 50%;
+
+
+}
+h1{
+  text-align: center;
+}
+
+hr {
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+
+}
+
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+   color: white;
+  font-weight: bold;
+  background-color:  #777;
+  cursor: pointer;
+}
+
+#myBrand {
+   color: white;
+  font-weight: bold;
+  background-color:  #777;
+  cursor: pointer;
+}
+
+/*.navbar-default .navbar-brand, .navbar-default .navbar-brand{
+   color: white;
+  font-weight: bold;
+  background-color:  #777;
+  cursor: pointer;*/
+
+
+.navbar-default .navbar-nav>li>a:hover{
+  color: white;
+  font-weight: bold;
+  background-color:  #777;
+  cursor: pointer;
+}
+
+nav.navbar.navbar-default {
+  margin: 0;
+}
+navbar-inverse h3{
+  color: white;
+}
+.white{
+  color: white;
+}
