@@ -8,6 +8,8 @@
   border-style: none;
 }
 
+html,body,#page, header { height:100%;}
+
 
 /*
 ///////////////////////////////////////////////*/
@@ -111,12 +113,7 @@ transition-delay:.2s;
 
 
 
-/* NAVBAR
--------------------------------------------------- */
 
-.navbar {
-  margin-bottom: 0;
-}
 
 /* CUSTOMIZED CAROUSEL
 -------------------------------------------------- */
@@ -206,7 +203,7 @@ a .fa {
 a .fa:hover {
   padding:  7px;
   color: #63676d;
-  background: white;
+  background: rgb(133, 218, 92);
   padding: 7px;
   border-radius: 50%;
 
@@ -238,7 +235,7 @@ hr {
 #myBrand {
    color: white;
   font-weight: bold;
-  background-color:  #777;
+  background-color:  rgb(133, 218, 92);
   cursor: pointer;
 }
 
@@ -252,7 +249,7 @@ hr {
 .navbar-default .navbar-nav>li>a:hover{
   color: white;
   font-weight: bold;
-  background-color:  #777;
+  background-color:  rgb(133, 218, 92);
   cursor: pointer;
 }
 
@@ -264,4 +261,33 @@ navbar-inverse h3{
 }
 .white{
   color: white;
+}
+
+p a, p a:visited {
+  text-decoration: none;
+  color: #3cba54;
+  font-weight: bold;
+  
+}
+
+p a:hover{
+  color: #3cba54;
+  text-decoration: none;
+  border: 1px solid silver;
+  border-radius: 30%;
+  padding: 5px;
+
+}
+
+
+.carousel-control.right:hover, .carousel-control.left:hover{
+  color: rgb(133, 218, 92);
+}
+
+
+/* NAVBAR
+-------------------------------------------------- */
+
+.navbar {
+  margin-bottom: 0;
 }
